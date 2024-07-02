@@ -10,8 +10,8 @@ function WeatherDisplay({weather}) {
     }
   return (
     <div> 
-      <span style={tempStyle}>Temperature: {temperature}
-      <p>{conditions}</p>
+      <span style={tempStyle}>
+        <p>Temperature: {temperature}, Conditional:{conditions}</p>
       </span>
 
     </div>
