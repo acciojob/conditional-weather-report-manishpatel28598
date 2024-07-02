@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <div>
-        <h1>Weather Report</h1>
+        <p>Weather Report</p>
         <WeatherDisplay weather = {weather}/>
     </div>
   )
